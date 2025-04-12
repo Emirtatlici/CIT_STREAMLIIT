@@ -657,3 +657,23 @@ with st.expander(f"View Raw {selected_commodity} Data (Incl. OHLC if available)"
     st.dataframe(analysis_df, use_container_width=True)
 
 st.markdown("---")
+# --- Disclaimer Section ---
+st.markdown("---") # Adds a horizontal line above the disclaimer
+
+disclaimer_en = """
+**Disclaimer:** The information and analyses provided by this tool are for informational and educational purposes only.
+They do not constitute investment advice, financial advice, trading advice, or any other sort of advice, nor do they recommend buying or selling any commodity.
+Investing in financial markets, including commodities, carries significant risk, and past performance is not indicative of future results.
+Always conduct your own research and consult with a qualified financial professional before making any investment decisions. Data provided may not always be perfectly accurate or timely.
+"""
+
+disclaimer_tr = """
+**Yasal Uyarı:** Bu araç tarafından sunulan bilgiler ve analizler yalnızca bilgilendirme ve eğitim amaçlıdır.
+Yatırım tavsiyesi, finansal tavsiye, alım satım tavsiyesi veya başka herhangi bir tavsiye niteliği taşımaz ve herhangi bir emtia (altın, gümüş vb.) alım satım önerisi olarak değerlendirilmemelidir.
+Finansal piyasalara, emtialar dahil olmak üzere, yatırım yapmak önemli riskler içerir ve geçmiş performans gelecekteki sonuçların göstergesi değildir.
+Herhangi bir yatırım kararı vermeden önce lütfen kendi araştırmanızı yapın ve nitelikli bir finans uzmanına danışın. Sunulan veriler her zaman tam olarak doğru veya güncel olmayabilir.
+"""
+
+st.caption(f"{disclaimer_en}\n\n{disclaimer_tr}")
+
+# End of your app.py file
