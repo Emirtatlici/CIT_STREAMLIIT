@@ -664,7 +664,7 @@ disclaimer_en = """
 **Disclaimer:** The information and analyses provided by this tool are for informational and educational purposes only.
 They do not constitute investment advice, financial advice, trading advice, or any other sort of advice, nor do they recommend buying or selling any commodity.
 Investing in financial markets, including commodities, carries significant risk, and past performance is not indicative of future results.
-Always conduct your own research and consult with a qualified financial professional before making any investment decisions. Data provided may not always be perfectly accurate or timely.
+Always conduct your own research and consult with a qualified financial professional before making any investment decisions. Data provided may not always be accurate or timely.
 """
 
 disclaimer_tr = """
